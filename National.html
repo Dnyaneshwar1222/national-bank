@@ -1,0 +1,833 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        .h1 {
+            background-color: rgb(216, 196, 13);
+            height: 5vh;
+            display: flex;
+            justify-content: center;
+            font-size: 25px;
+            font-weight: bold;
+            color: rgb(10, 79, 10);
+
+        }
+
+        .con {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            width: 100%;
+            height: 270vh;
+            margin: auto;
+            background-color: rgb(143, 142, 136);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+
+        .Tital {
+            font-size: 25px;
+            font-weight: bolder;
+            color: red;
+        }
+
+        .logo {
+            width: 15%;
+            margin-top: 10px;
+            margin-right: 10px;
+        }
+
+        .cont {
+            width: 100%;
+            padding-left: 5px;
+
+        }
+
+        .logo img {
+            width: 100%;
+            height: 30px;
+        }
+
+        .top {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .cont h1 {
+            font-size: 14px;
+
+        }
+
+        .cont p {
+            font-size: 20px;
+            height: 100%;
+            color: rgb(12, 12, 11);
+            text-align: justify;
+
+
+        }
+
+        .mid {
+            font-size: 15px;
+            color: rgb(19, 18, 17);
+            margin: 1px;
+            padding-left: 2px;
+
+        }
+
+        .bottom {
+            display: flex;
+            justify-content: space-between;
+            background-color: rgb(187, 18, 9);
+        }
+
+        .bottom div {
+            width: 32%;
+            background-color: black;
+            color: white;
+            text-align: center;
+            font-size: 13px;
+        }
+
+        .bottom div:hover {
+            background-color: darkgoldenrod;
+            color: darkorchid;
+        }
+
+        .c1 {
+            width: 30%;
+            height: 200px;
+            background-color: rgb(179, 187, 184);
+            margin-bottom: 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            border-radius: 4%;
+        }
+
+        .c2 {
+            width: 30%;
+            height: 200px;
+            background-color: rgb(179, 187, 184);
+            margin-bottom: 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            border-radius: 4%;
+        }
+
+        .c3 {
+            width: 30%;
+            height: 200px;
+            background-color: rgb(179, 187, 184);
+            margin-bottom: 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            border-radius: 4%;
+        }
+
+        .c4 {
+            width: 30%;
+            height: 200px;
+            background-color: rgb(179, 187, 184);
+            margin-bottom: 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            border-radius: 4%;
+            margin-top: -130px;
+        }
+
+        .c5 {
+            width: 30%;
+            height: 200px;
+            background-color: rgb(179, 187, 184);
+            margin-bottom: 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            border-radius: 4%;
+            margin-top: -130px;
+        }
+
+        .c6 {
+            width: 30%;
+            height: 200px;
+            background-color: rgb(179, 187, 184);
+            margin-bottom: 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            border-radius: 4%;
+            margin-top: -130px;
+        }
+
+        .c7 {
+            width: 30%;
+            height: 200px;
+            background-color: rgb(179, 187, 184);
+            margin-bottom: 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            border-radius: 4%;
+            margin-top: -130px;
+        }
+
+        .c8 {
+            width: 30%;
+            height: 200px;
+            background-color: rgb(179, 187, 184);
+            margin-bottom: 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            border-radius: 4%;
+            margin-top: -130px;
+        }
+
+        .c9 {
+            width: 30%;
+            height: 200px;
+            background-color: rgb(179, 187, 184);
+            margin-bottom: 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            border-radius: 4%;
+            margin-top: -130px;
+        }
+
+        .c10 {
+            width: 30%;
+            height: 220px;
+            background-color: rgb(179, 187, 184);
+            margin-bottom: 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            border-radius: 4%;
+            margin-top: -130px;
+        }
+
+        .c11 {
+            width: 30%;
+            height: 220px;
+            background-color: rgb(179, 187, 184);
+            margin-bottom: 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            border-radius: 4%;
+            margin-top: -130px;
+        }
+
+        .c12 {
+            width: 30%;
+            height: 220px;
+            background-color: rgb(179, 187, 184);
+            margin-bottom: 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            border-radius: 4%;
+            margin-top: -130px;
+        }
+
+        .c13 {
+            width: 30%;
+            height: 220px;
+            background-color: rgb(179, 187, 184);
+            margin-bottom: 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            border-radius: 4%;
+            margin-top: -130px;
+        }
+
+        .c14 {
+            width: 30%;
+            height: 220px;
+            background-color: rgb(179, 187, 184);
+            margin-bottom: 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            border-radius: 4%;
+            margin-top: -130px;
+        }
+
+        .c15 {
+            width: 30%;
+            height: 220px;
+            background-color: rgb(179, 187, 184);
+            margin-bottom: 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            border-radius: 4%;
+            margin-top: -130px;
+        }
+
+        .c16 {
+            width: 30%;
+            height: 220px;
+            background-color: rgb(179, 187, 184);
+            margin-bottom: 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            border-radius: 4%;
+            margin-top: -130px;
+        }
+
+        .c17 {
+            width: 30%;
+            height: 220px;
+            background-color: rgb(179, 187, 184);
+            margin-bottom: 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            border-radius: 4%;
+            margin-top: -130px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        .c18 {
+            width: 30%;
+            height: 220px;
+            background-color: rgb(179, 187, 184);
+            margin-bottom: 10px;
+            display: flex;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            flex-direction: column;
+            justify-content: space-between;
+            border-radius: 4%;
+            margin-top: -130px;
+        }
+        .footer{
+            width: 100%;
+            background-color: rgb(168, 174, 186);
+            margin-top: -130px;
+            font-size: 50px;
+            height: 10vh;
+            color:rgb(5, 57, 3);
+    
+        }
+        .f1{
+            font-size: 40px;
+            color:rgb(6, 98, 131);
+        }
+        .c1:hover{
+            background-color:rgb(105, 185, 160);
+        }
+        .c2:hover{
+            background-color:rgb(105, 185, 160);
+        }
+        .c3:hover{
+            background-color:rgb(105, 185, 160);
+        }
+        .c4:hover{
+            background-color:rgb(105, 185, 160);
+        }
+        .c5:hover{
+            background-color:rgb(105, 185, 160);
+        }
+        .c6:hover{
+            background-color:rgb(105, 185, 160);
+        }
+        .c7:hover{
+            background-color:rgb(105, 185, 160);
+        }
+        .c8:hover{
+            background-color:rgb(105, 185, 160);
+        }
+        .c9:hover{
+            background-color:rgb(105, 185, 160);
+        }
+        .c10:hover{
+            background-color:rgb(105, 185, 160);
+        }
+        .c11:hover{
+            background-color:rgb(105, 185, 160);
+        }
+        .c12:hover{
+            background-color:rgb(105, 185, 160);
+        }
+        .c13:hover{
+            background-color:rgb(105, 185, 160);
+        }
+        .c14:hover{
+            background-color:rgb(105, 185, 160);
+        }
+        .c15:hover{
+            background-color:rgb(105, 185, 160);
+        }
+        .c16:hover{
+            background-color:rgb(105, 185, 160);
+        }
+        .c17:hover{
+            background-color:rgb(105, 185, 160);
+        }
+        .c18:hover{
+            background-color:rgb(105, 185, 160);
+        }
+    </style>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="h1"> <marquee behavior="" direction="">The National Co-Op Bank Ltd..(All Branches)</marquee> </div>
+    <div class="con">
+        <div class="c1">
+            <div class="top">
+                <div class="cont">
+                    <div class="Tital">FORT</div>
+                    <p>9.Podar Chambers,<br>
+                        Store Lane,Fort,<br>
+                        Mumbai-400 001,<br>
+                        Tel:2266 4078 / 2266 0973
+                    </p>
+                </div>
+                <div class="logo"><img src="./national.jpg" /></div>
+            </div>
+            <div class="mid">
+                <div><a href="">national@ncbmumbai.com</a></div>
+                <div><a href="https://maps.app.goo.gl/g6x1kAiChzD3KctWA">https://maps.app.goo.gl/g6x1kAiChzD3KctWA</a>
+                </div>
+            </div>
+            <div class="bottom">
+                <div>Branch</div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+        <div class="c2">
+            <div class="top">
+                <div class="cont">
+                    <div class="Tital">NARIMAN POINT</div>
+                    <p>214,Raheja center,<br>
+                        Free Press Journal Road,Nariman Point,<br>
+                        Mumbai-400 021,<br>
+                        Tel:8976599761
+                    </p>
+                </div>
+                <div class="logo"><img src="./national.jpg" /></div>
+            </div>
+            <div class="mid">
+                <div><a href="">national@ncbmumbai.com</a></div>
+                <div><a href="https://maps.app.goo.gl/g6x1kAiChzD3KctWA">https://maps.app.goo.gl/g6x1kAiChzD3KctWA</a>
+                </div>
+            </div>
+
+            <div class="bottom">
+                <div>Branch</div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+        <div class="c3">
+            <div class="top">
+                <div class="cont">
+                    <div class="Tital">NERUL STATION</div>
+                    <p>B-3 to 7,Nerul Station Cum<br>
+                        Commercial Complex,Nerul,<br>
+                        Navi Mumbai-400 706,<br>
+                        Tel:9833197767
+                    </p>
+                </div>
+                <div class="logo"><img src="./national.jpg" /></div>
+            </div>
+            <div class="mid">
+                <div><a href="">national@ncbmumbai.com</a></div>
+                <div><a href="https://maps.app.goo.gl/g6x1kAiChzD3KctWA">https://maps.app.goo.gl/g6x1kAiChzD3KctWA</a>
+                </div>
+            </div>
+            <div class="bottom">
+                <div>Branch</div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+        <div class="c4">
+            <div class="top">
+                <div class="cont">
+                    <div class="Tital">R.G.BRIDGE (NERUL)</div>
+                    <p>Shop No.8 & 9,<br>
+                        Below Rajiv Gandhi Bridge,Phase-II,<br>
+                        Sector-08,Nerul Navi Mumbai-400 706,<br>
+                        Tel:8425931034
+                    </p>
+                </div>
+                <div class="logo"><img src="./national.jpg" /></div>
+            </div>
+            <div class="mid">
+                <div><a href="">national@ncbmumbai.com</a></div>
+                <div><a href="https://maps.app.goo.gl/g6x1kAiChzD3KctWA">https://maps.app.goo.gl/g6x1kAiChzD3KctWA</a>
+                </div>
+            </div>
+            <div class="bottom">
+                <div>Branch</div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+        <div class="c5">
+            <div class="top">
+                <div class="cont">
+                    <div class="Tital">SANPADA</div>
+                    <p>Shop No.11 & 12,Sai-Kala CHS Ltd.,<br>
+                        Plot No.22 & 23,Sector-30,Sanpada<br>
+                        Navi Mumbai-400 705,<br>
+                        Tel:9004028560
+                    </p>
+                </div>
+                <div class="logo"><img src="./national.jpg" /></div>
+            </div>
+            <div class="mid">
+                <div><a href="">national@ncbmumbai.com</a></div>
+                <div><a href="https://maps.app.goo.gl/g6x1kAiChzD3KctWA">https://maps.app.goo.gl/g6x1kAiChzD3KctWA</a>
+                </div>
+            </div>
+            <div class="bottom">
+                <div>Branch</div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+        <div class="c6">
+            <div class="top">
+                <div class="cont">
+                    <div class="Tital">KALYAN</div>
+                    <p>Sheetal Complex,Shop-No.1 to 3&7 to 9,<br>
+                        Katemanvali,Pune Link Road,<br>
+                        Kalyan(East)-421 306<br>
+                        Tel:0251-2365 989/0251-2363 886
+                    </p>
+                </div>
+                <div class="logo"><img src="./national.jpg" /></div>
+            </div>
+            <div class="mid">
+                <div><a href="">national@ncbmumbai.com</a></div>
+                <div><a href="https://maps.app.goo.gl/g6x1kAiChzD3KctWA">https://maps.app.goo.gl/g6x1kAiChzD3KctWA</a>
+                </div>
+            </div>
+            <div class="bottom">
+                <div>Branch</div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+
+        <div class="c7">
+            <div class="top">
+                <div class="cont">
+                    <div class="Tital">KHANDA COLONY</div>
+                    <p>Plot NO.8-C,Sector-13,<br>
+                        Khanda Colony,<br>
+                        New Panvel(West)-410 206<br>
+                        Tel:9819629187
+                    </p>
+                </div>
+                <div class="logo"><img src="./national.jpg" /></div>
+            </div>
+            <div class="mid">
+                <div><a href="">national@ncbmumbai.com</a></div>
+                <div><a href="https://maps.app.goo.gl/g6x1kAiChzD3KctWA">https://maps.app.goo.gl/g6x1kAiChzD3KctWA</a>
+                </div>
+            </div>
+            <div class="bottom">
+                <div>Branch</div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+
+        <div class="c8">
+            <div class="top">
+                <div class="cont">
+                    <div class="Tital">BHAYANDAR</div>
+                    <p>Shop No.8,Ground Floor,<br>
+                        Janki Presidency,90 Feet Road<br>
+                        Bhayandar(W),Thane-401 101<br>
+                        Tel:28147491/28046220
+                    </p>
+                </div>
+                <div class="logo"><img src="./national.jpg" /></div>
+            </div>
+            <div class="mid">
+                <div><a href="">national@ncbmumbai.com</a></div>
+                <div><a href="https://maps.app.goo.gl/g6x1kAiChzD3KctWA">https://maps.app.goo.gl/g6x1kAiChzD3KctWA</a>
+                </div>
+            </div>
+            <div class="bottom">
+                <div>Branch</div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+
+        <div class="c9">
+            <div class="top">
+                <div class="cont">
+                    <div class="Tital">GHATKOPAR</div>
+                    <p>Shop No.5 & 6,Ground Floor,<br>
+                        Giri Vihar Building,Jivdaya Lane,<br>
+                        Ghatkopar(West),Mumbai-400 086<br>
+                        Tel:98672117732
+                    </p>
+                </div>
+                <div class="logo"><img src="./national.jpg" /></div>
+            </div>
+            <div class="mid">
+                <div><a href="">national@ncbmumbai.com</a></div>
+                <div><a href="https://maps.app.goo.gl/g6x1kAiChzD3KctWA">https://maps.app.goo.gl/g6x1kAiChzD3KctWA</a>
+                </div>
+            </div>
+            <div class="bottom">
+                <div>Branch</div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+        <div class="c10">
+            <div class="top">
+                <div class="cont">
+                    <div class="Tital">BORIVALI</div>
+                    <p>Shop No.1 & 2 Ground Floor,<br>
+                        Royal Coltage CHS Ltd,<br>
+                        Kasturba Cross Road No.2,<br>
+                        Borivali(East),Mumbai-400 066<br>
+                        Tel:7304654605
+                    </p>
+                </div>
+                <div class="logo"><img src="./national.jpg" /></div>
+            </div>
+            <div class="mid">
+                <div><a href="">national@ncbmumbai.com</a></div>
+                <div><a href="https://maps.app.goo.gl/g6x1kAiChzD3KctWA">https://maps.app.goo.gl/g6x1kAiChzD3KctWA</a>
+                </div>
+            </div>
+            <div class="bottom">
+                <div>Branch</div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+        <div class="c11">
+            <div class="top">
+                <div class="cont">
+                    <div class="Tital">COLABA</div>
+                    <p>3/7 Daulat Building,
+                        Near Colaba Post Office.<br>
+                        S.B.S.Road,Colaba,<br>
+                        Mumbai-400 005,<br>
+                        Tel:8828800489
+                    </p>
+                </div>
+                <div class="logo"><img src="./national.jpg" /></div>
+            </div>
+            <div class="mid">
+                <div><a href="">national@ncbmumbai.com</a></div>
+                <div><a href="https://maps.app.goo.gl/g6x1kAiChzD3KctWA">https://maps.app.goo.gl/g6x1kAiChzD3KctWA</a>
+                </div>
+            </div>
+            <div class="bottom">
+                <div>Branch</div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+
+        <div class="c12">
+            <div class="top">
+                <div class="cont">
+                    <div class="Tital">MAHIM</div>
+                    <p>Shop No.3 & 4,Ground Floor,<br>
+                        Kirti Mandir CHS Ltd.,Lady Jamshedji Road,<br>
+                        Mahim (West),Mumbai-400 001,<br>
+                        Tel:9594383545
+                    </p>
+                </div>
+                <div class="logo"><img src="./national.jpg" /></div>
+            </div>
+            <div class="mid">
+                <div><a href="">national@ncbmumbai.com</a></div>
+                <div><a href="https://maps.app.goo.gl/g6x1kAiChzD3KctWA">https://maps.app.goo.gl/g6x1kAiChzD3KctWA</a>
+                </div>
+            </div>
+            <div class="bottom">
+                <div>Branch</div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+
+        <div class="c13">
+            <div class="top">
+                <div class="cont">
+                    <div class="Tital">ULWE</div>
+                    <p>Shop No.4,Prathmesh Paradise,
+                        Plot no.174 & 175 Sector-19,<br>
+                        Ulwe Tal-Panvel,Dist-Raigad<br>
+                        Pin-410 206<br>
+                        Tel:7304050877
+                    </p>
+                </div>
+                <div class="logo"><img src="./national.jpg" /></div>
+            </div>
+            <div class="mid">
+                <div><a href="">national@ncbmumbai.com</a></div>
+                <div><a href="https://maps.app.goo.gl/g6x1kAiChzD3KctWA">https://maps.app.goo.gl/g6x1kAiChzD3KctWA</a>
+                </div>
+            </div>
+            <div class="bottom">
+                <div>Branch</div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+
+        <div class="c14">
+            <div class="top">
+                <div class="cont">
+                    <div class="Tital">SUKAPUR</div>
+                    <p>Shop No.1,2&3,Swapna Purti Bungalow,<br>
+                        299 P-No.4/1&4/2,Survey No.94(2)/1(2)<br>
+                        Pali-Devad,Sukapur,Dist-Raigad-410 206,<br>
+                        Tel:8454027576
+                    </p>
+                </div>
+                <div class="logo"><img src="./national.jpg" /></div>
+            </div>
+            <div class="mid">
+                <div><a href="">national@ncbmumbai.com</a></div>
+                <div><a href="https://maps.app.goo.gl/g6x1kAiChzD3KctWA">https://maps.app.goo.gl/g6x1kAiChzD3KctWA</a>
+                </div>
+            </div>
+            <div class="bottom">
+                <div>Branch</div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+
+        <div class="c15">
+            <div class="top">
+                <div class="cont">
+                    <div class="Tital">TALOJA</div>
+                    <p>Shop No.16,N.S.View CHS Ltd.,<br>
+                        P-No.147/148,Sector-10,Phase,Taloja,<br>
+                        Dist-Raigad<br>
+                        Pin-410 208 <br>
+                        Tel:9136246824
+                    </p>
+                </div>
+                <div class="logo"><img src="./national.jpg" /></div>
+            </div>
+            <div class="mid">
+                <div><a href="">national@ncbmumbai.com</a></div>
+                <div><a href="https://maps.app.goo.gl/g6x1kAiChzD3KctWA">https://maps.app.goo.gl/g6x1kAiChzD3KctWA</a>
+                </div>
+            </div>
+            <div class="bottom">
+                <div>Branch</div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+
+        <div class="c16">
+            <div class="top">
+                <div class="cont">
+                    <div class="Tital">GHODBUNDER ROAD</div>
+                    <p>Shop No.13,Ground Floor,Hillspring,<br>
+                        Vijay Garden,Ghodbunder Road,<br>
+                        Thane-400 615,<br>
+                        Tel:8424081717
+                    </p>
+                </div>
+                <div class="logo"><img src="./national.jpg" /></div>
+            </div>
+            <div class="mid">
+                <div><a href="">national@ncbmumbai.com</a></div>
+                <div><a href="https://maps.app.goo.gl/g6x1kAiChzD3KctWA">https://maps.app.goo.gl/g6x1kAiChzD3KctWA</a>
+                </div>
+            </div>
+            <div class="bottom">
+                <div>Branch</div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+
+        <div class="c17">
+            <div class="top">
+                <div class="cont">
+                    <div class="Tital">PALGHAR</div>
+                    <p>Shop No.8&9,D-Wing,Jivdani Complex,<br>
+                        Kamla Park,Mahim Road,<br>
+                        Palghar-401 404<br>
+                        Tel:9172324991
+                    </p>
+                </div>
+                <div class="logo"><img src="./national.jpg" /></div>
+            </div>
+            <div class="mid">
+                <div><a href="">national@ncbmumbai.com</a></div>
+                <div><a href="https://maps.app.goo.gl/g6x1kAiChzD3KctWA">https://maps.app.goo.gl/g6x1kAiChzD3KctWA</a>
+                </div>
+            </div>
+            <div class="bottom">
+                <div>Branch</div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+        
+        <div class="c18">
+            <div class="top">
+                <div class="cont">
+                    <div class="Tital">HELP</div>
+                    
+                        <li>ADMIN-OFFICE:-022-49763384/35137936</li><br>
+                        <li>CLEARING-DEPT:-22828553</li><br>
+                        <li>RECOVERY DEPT:-27458628/27458629</li><br>
+                         <li>TOLL Free No.1800 223 400</li>
+                    
+                </div>
+                <div class="logo"><img src="./national.jpg" /></div>
+            </div>
+            <div class="mid">
+                <div><a href="">national@ncbmumbai.com</a></div>
+                <div><a href="https://maps.app.goo.gl/g6x1kAiChzD3KctWA">https://maps.app.goo.gl/g6x1kAiChzD3KctWA</a>
+                </div>
+            </div>
+            <div class="bottom">
+                <div>Branch</div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+        <div class="footer">
+           <div>The National Co-Op Bank Ltd..</div>
+           <div class="f1"><li>Follow Us @</li>
+            <li>The national Co-Op Bank Ltd</li>
+            <li>nationalbankinsta</li>
+            <li>www.nationalbank.co.in</li></div>
+           
+
+        </div>
+    
+       
+    </div>
+
+    </div>
+
+</body>
+
+</html>
